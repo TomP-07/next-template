@@ -1,4 +1,8 @@
+<<<<<<< HEAD
                     GNU GENERAL PUBLIC LICENSE
+=======
+GNU GENERAL PUBLIC LICENSE
+>>>>>>> 74c7914 (Initial Template, missing configs: JEST, Eslint, Prettier.)
                        Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
