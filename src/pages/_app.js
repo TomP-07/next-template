@@ -5,9 +5,6 @@ function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
 
-MyApp.propTypes = {
-  Component: PropTypes.any,
-  pageProps: PropTypes.pageProps,
-};
+
 
 export default MyApp;

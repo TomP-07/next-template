@@ -1,5 +1,10 @@
 {
-  "extends": ["next/core-web-vitals", "plugin:prettier/recommended", "eslint:recommended", "plugin:react/recommended"],
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:prettier/recommended",
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
   "settings": {
     "react": {
       "pragma": "React",
@@ -12,7 +17,14 @@
     "es6": true,
     "jest/globals": true
   },
-  "plugins": ["prettier", "react", "redux-saga", "react-hooks", "jest", "import"],
+  "plugins": [
+    "prettier",
+    "react",
+    "redux-saga",
+    "react-hooks",
+    "jest",
+    "import"
+  ],
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module",
