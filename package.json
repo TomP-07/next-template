@@ -9,11 +9,14 @@
     "lint": "next lint",
     "prepare": "husky install"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": [
-      "npx prettier --write",
-      "npx eslint --fix"
-    ]
+    "./**/*.{js, jsx, ts, tsx}": "eslint --fix",
+    "./**/*.{js, jsx, ts, tsx, json, html, css}": "prettier --write"
   },
   "dependencies": {
     "next": "12.2.2",
